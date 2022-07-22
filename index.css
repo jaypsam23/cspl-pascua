@@ -1,0 +1,9 @@
+/*Background Properties (./image.jpg)or link*/
+#background {
+    margin-top: 100px;
+    min-height: 100vh;
+    background-image: url(/image/bg-joshua.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
