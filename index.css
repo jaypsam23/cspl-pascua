@@ -1,9 +1,120 @@
-/*Background Properties (./image.jpg)or link*/
-#background {
-    margin-top: 100px;
-    min-height: 100vh;
-    background-image: url(/image/bg-joshua.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
+
+/* Home section */
+
+html {
+    scroll-behavior: smooth;    
+}
+
+.home {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/BGRAY2.png);
+    background-position: right center;
+    background-size:cover;
+}
+
+
+.container1{
+    color: ghostwhite;
+    text-align: right;
+    margin-right: 50px;
+    float: right;
 
 }
+
+.container2{
+    color: ghostwhite;
+    text-align: left;
+    margin-left: 50px;
+    float: left;
+
+}
+
+.subtitle{
+float: right;
+font-size: 18px;
+max-width: 40ch;
+
+
+}
+
+.video{
+    float: right;
+}
+
+#links
+{
+float: right;
+font-size: 25px;
+max-width: 40ch;
+
+}
+
+body {
+       /*opacity:  .60*/
+    background-color:  lightgray; 
+}
+
+.left-box{ 
+    position:relative; padding-top:30px;
+}
+.right-box{
+    position:relative; padding-top:30px;
+}
+
+/*Contact*/
+
+.contact_form
+{
+    padding-top: 85px;
+}
+
+
+.contact_form_inputs
+{
+    margin-bottom: 30px;
+}
+.input_field
+{
+    width: calc((100% - 60px) / 3);
+    height: 50px;
+    padding-left: 25px;
+    border: solid 1px #e5e5e5;
+    border-radius: 5px;
+    outline: none;
+    color: black;
+}
+
+
+.text_field
+{
+    width: 100%;
+    height: 160px;
+    padding-left: 25px;
+    padding-top: 15px;
+    border: solid 1px #e5e5e5;
+    border-radius: 5px;
+    color: #0e8ce4;
+    outline: none;
+
+}
+.contact_submit_button
+{
+    padding-left: 35px;
+    padding-right: 35px;
+    color: black;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 24px;
+}
+
+/*Achievements*/
+
+/*.carousel-item{
+    height: 300px;
+    width: 400px;
+}*/
+
+
