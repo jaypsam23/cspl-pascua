@@ -35,12 +35,8 @@ float: right;
 font-size: 18px;
 max-width: 40ch;
 
-
 }
 
-.video{
-    float: right;
-}
 
 #links
 {
@@ -116,5 +112,168 @@ body {
     height: 300px;
     width: 400px;
 }*/
+//navlink
+#navlink {
+  font-size: 1.4rem;
+  font-weight: 400;
+  letter-spacing: 0.25rem;
+}
+
+#navlink {
+  padding-top: 10rem;
+  text-transform: capitalize;
+}
+
+#navlink {
+  text-decoration: none;
+  background-color: whitesmoke;
+  color: darkslategray;
+  font-size: 14px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: padding 0.25s ease-out;
+}
+
+#navlink:hover {
+  padding: 12px 12px;
+  background-color: lightgray;
+}  
+
+#navitem {
+  padding-right: 1rem;
+}
+//landing page
+#btn-to-resume {
+  font-size: 1.4rem;
+  font-weight: 400;
+  letter-spacing: 0.25rem;
+}
+
+#btn-to-resume {
+  padding-top: 10rem;
+  text-transform: capitalize;
+}
+
+#btn-resume {
+  text-decoration: none;
+  background-color: whitesmoke;
+  color: darkslategray;
+  font-size: 14px;
+  padding: 8px 8px;
+  border-radius: 4px;
+  box-shadow: 8px 8px 8px rgba(12, 11, 11, 0.6);
+  transition: padding 0.25s ease-out;
+}
+
+#btn-resume:hover {
+  padding: 12px 12px;
+  background-color: lightgray;
+}  
+
+//landing icon
+
+#social-media {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+  position: relative;
+  z-index: 997;
+}
+.soc-med-icon {
+  padding-right: 2rem;
+  padding-top: 15rem;
+}
+.soc-med-icon i {
+  line-height: 2.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  text-align: center;
+  font-size: 1.5rem;
+  color: darkslategray;
+  background-color: gray;
+  border-radius: 50%;
+  box-shadow: 4px 4px 8px rgba(12, 11, 11, 0.6);
+  transition: transform 0.25s ease-out;
+  transition: color 0.25s ease out;
+}
+
+.soc-med-icon i:hover {
+  background-color: var(--color-primary-400);
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+@media (max-width: 66rem) {
+
+
+  .soc-med-icon {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+
+
+  }
+  #social-media {
+    justify-content: left;
+  }
+
+//landing pic
+#profile-img p {
+  padding-top: 8rem;
+  padding-bottom: 1.5rem;
+  text-align: left;
+}
+#profile-img img {
+  display: inline-block;
+  width: 10rem;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 6px solid var(--color-gray-600);
+  box-shadow: 4px 4px 8px rgba(12, 11, 11, 0.6);
+  cursor: pointer;
+  transition: transform 0.25s ease-out;
+}
+#profile-img img:hover {
+  border: 6px solid var(--color-primary-400);
+  transform: scale(1.05);
+}
+
+//footer1
+.soc-med-iconf {
+  padding-right: 10rem;
+  padding-top: 5rem;
+  padding: 10px 10px;
+}
+.soc-med-iconf i {
+  line-height: 2.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  text-align: center;
+  font-size: 1.5rem;
+  color: darkslategray;
+  background-color: whitesmoke;
+  border-radius: 50%;
+  box-shadow: 4px 4px 8px rgba(12, 11, 11, 0.6);
+  transition: transform 0.25s ease-out;
+  transition: color 0.25s ease out;
+}
+
+.soc-med-iconf i:hover {
+  background-color: var(--color-primary-400);
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+@media (max-width: 66rem) {
+
+
+  .soc-med-iconf {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+//footer2
+
 
 
