@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>JPascua Portfolio</title>
 
 	<!-- bootstrap link -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"/>
@@ -14,13 +14,10 @@
 	<!-- css external link -->
 	<link rel="stylesheet" href="./index.css">
 
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">
-
 </head>
 <body>
-	<!-- Navbar -->
+
+<!-- Navbar -->
 
 	 <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
 	 	<a class="text-white" href="">
@@ -34,20 +31,20 @@
 
 	   <div class="collapse navbar-collapse" id="batch169nav">
 	     <ul class="navbar-nav ml-auto">
-	       <li class="nav-item">
-	         <a class="nav-link" href="#home">Home</a>
+	       <li class="nav-item" id="navitem">
+	         <a class="nav-link" id="navlink" href="#home">Home</a>
 	       </li>
-	       <li class="nav-item">
-	         <a class="nav-link" href="#about">About</a>
+	       <li class="nav-item" id="navitem">
+	         <a class="nav-link" id="navlink" href="#about">About</a>
 	       </li>
-	       <li class="nav-item">
-	       	 <a class="nav-link" href="#achievements">Achivements</a>
+	       <li class="nav-item" id="navitem">
+	       	 <a class="nav-link" id="navlink" href="#achievements">Achivements</a>
 	       </li>
-	       	<li class="nav-item">
-	       	 <a class="nav-link" href="#more">Others</a>
+	       	<li class="nav-item" id="navitem">
+	       	 <a class="nav-link" id="navlink" href="#more">Others</a>
 	       </li>
-	       	<li class="nav-item">
-	       	 <a class="nav-link" href="#contact">Contact Me</a>
+	       	<li class="nav-item" id="navitem">
+	       	 <a class="nav-link" id="navlink" href="#contact">Contact Me</a>
 	       </li>
 	     </ul>
 	   </div>
@@ -58,24 +55,20 @@
     		<div class="text mt-5">
     			<h1 class="title">HI! I'M JOSHUA</h1>
                 <h2 class="subtitle mt-3">
-                    A Front-End developer based in the Philippines who's  passionate about developing and maintaining websites. Scroll down for more details about me and a glimpse of my portfolio.
+                    A Full-stack developer based in the Philippines who's  passionate about developing and maintaining websites. Scroll down for more details about me and a glimpse of my portfolio.
                 </h2>
+                <h4 class="gray uppercase" id="btn-to-resume"><p class="profile-text"><a id="btn-resume" href="https://drive.google.com/drive/folders/1MEfJ3rl7q3D8GeO-hR8JV30OlVSyjURv" target="_blank">View Resume</a></p></h4>
     		</div>
 
-    		<div class="d-flex justify-content-center px-5 mt-5" id="links">
-				<a class="text-black mx-2" target="_blank" href="https://facebook.com">
-					<i class="fa-brands fa-facebook fa-icons">Facebook</i>
-				</a>
-				<a class="text-black mx-2" target="_blank" href="https://instagram.com">
-					<i class="fa-brands fa-instagram-square fa-icons">Instagram</i>
-				</a>
-			</div>
-    	</div>
+    		<div class="d-flex justify-content-center" id="links">
 
-    	<div class="container2">
-    	<!--<div class="d-flex flex-row justify-content-center mt-5">
-    		<img class="rounded-circle" src="images/jplogo.png" style="width:200px;"/>
-    	</div>	-->
+              	<div class="soc-med-icon"> <a href="https://www.facebook.com/iamjayp" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></div>
+              	<div class="soc-med-icon"><a href="https://www.instagram.com/iamjeyp" target="_blank"><i class="fa-brands fa-instagram"></i></a></div>
+             	<div class="soc-med-icon"><a href="https://www.linkedin.com/in/joshua-pascua-443614181" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></div>
+
+    		</div>
+
+<!--     	<div class="container2">
     	<h3 class="text-center mt-3">Expertise</h3>
        		<div class="d-flex flex-row justify-content-center flex-wrap mb-4">
             	<img src="images/mongodb.png" style="width:80px;"/>
@@ -96,20 +89,19 @@
 					<img class="" src="./images/logo-css3.png" style="width: 80px;">
 				</div>
 			</div>
-		<!-- 2 -->
 			<div class="d-flex flex-row justify-content-center flex-wrap">
 				<div>
 					<img class="mb-5" src="./images/logo-javascript.png" style="width: 80px;">
 				</div>
-			</div>
+			</div> -->
 
-		</div>
+    	</div>
     </section>
 
-	<!-- End of Navbar -->
+<!-- End of Navbar -->
 
 
-	<!-- About Me -->
+<!-- About Me -->
 
 <section class="about mt-5" id="about">
 	<div class="text-center">
@@ -120,7 +112,11 @@
 
 	<div class="container-fluid mt-5 text-center border">
 		<div class="mt-4 w-50 ml-auto mr-auto w-25">
-			<img class="mt-5 img-fluid rounded-circle" src="./images/me1.png" alt="joshua_pic" style="width: 200px;" />
+			<div id="profile-banner-soc-media">
+				<div id="banner-profile">
+				<img class="mt-5 img-fluid rounded-circle" src="./images/me1.png" id="profile-img" alt="joshua_pic" style="width: 200px;" />
+			</div>
+			</div>
 			<div class="mt-3">
 				<h2 class="border-bottom border-primary d-inline" id="homeh2">
 					Joshua Pascua
@@ -129,7 +125,7 @@
 			</div>
 		</div>
 		<p class="mt-4 mb-5 w-50 ml-auto mr-auto">
-			I'm Joshua Pascua, an experienced IT Support, Network Support and Governance Analyst. I've been in the industry for five years. I am fond of exploring different technologies that made me interested in developing.  
+			I'm Joshua Pascua, an experienced IT Support, Network Support and Governance Analyst. I've been in the industry for five years. I am fond of exploring different technologies that made me interested in developing. 
 		</p>
 	</div>
 </section>
@@ -208,7 +204,7 @@
     <!-- End of more about me -->
 
     <!-- Contact Me -->
-<section class="contact border mt-5" id="contact">
+<!-- <section class="contact border mt-5" id="contact">
 	<section class="more">
 	<h1 class="text-center mt-3">
 	<i class="fa-solid fa-address-book"></i>
@@ -239,22 +235,29 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
     <!-- End of contact me -->
 
 	<!-- footer -->
 	<footer class="p-3 bg-dark mt-5">
-		<p class="text-center text-white">
-			All Rights Reserved
-		</p>
+		<h3 class="text-left text-white">
+			Contact
+		</h3>
+              <div class="text-left text-white">
+                  	<p>NBP Reservation</p>
+                    <p>Type C Road Poblacion, Muntinlupa City</p>
+
+              </div>
+               <div>
+                  <a href="mailto:ronel.andaya@gmail.com">
+                  <p>jpascua.career@gmail.com</p>
+                </a>
+               </div>		
 		<div class="d-flex justify-content-center px-5">
-			<a class="text-white mx-2" target="_blank" href="https://facebook.com">
-				<i class="fa-brands fa-facebook fa-icons"></i>
-			</a>
-			<a class="text-white mx-2" target="_blank" href="https://instagram.com">
-				<i class="fa-brands fa-instagram-square fa-icons"></i>
-			</a>
+              	<div class="soc-med-iconf"> <a href="https://www.facebook.com/iamjayp" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></div>
+              	<div class="soc-med-iconf"><a href="https://www.instagram.com/iamjeyp" target="_blank"><i class="fa-brands fa-instagram"></i></a></div>
+             	<div class="soc-med-iconf"><a href="https://www.linkedin.com/in/joshua-pascua-443614181" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></div>
 		</div>
 	</footer>
 	<!-- end of footer -->
